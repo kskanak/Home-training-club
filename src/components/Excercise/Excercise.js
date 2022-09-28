@@ -11,7 +11,7 @@ const Excercise = ({ excercise, getExcerciseOnclick }) => {
         alt=""
       />
       <div className="excercise-info px-5">
-        <h2 className="text-xl font-semibold">Name: {name}</h2>
+        <h2 className="text-xl font-semibold">Excercise: {name}</h2>
         <h2 className="text-sm"> {details} </h2>
         <h2 className="text-lg font-semibold"> Sets: {sets} rounds</h2>
         <h2 className="text-lg font-semibold"> Duration: {time}s</h2>
@@ -23,7 +23,7 @@ const Excercise = ({ excercise, getExcerciseOnclick }) => {
           getExcerciseOnclick(excercise);
         }}
       >
-        Save Changes
+        Add to WorkOut
       </button>
     </div>
   );
