@@ -1,8 +1,8 @@
 import React from "react";
 
-const Excercise = ({ excercise }) => {
+const Excercise = ({ excercise, getExcerciseOnclick }) => {
   const { id, img, name, sets, time, details } = excercise;
-  console.log(excercise);
+
   return (
     <div className="excercise-cart shadow-2xl shadow-cyan-500/50 border border-gray-300 rounded-lg relative h-96">
       <img
@@ -17,7 +17,12 @@ const Excercise = ({ excercise }) => {
         <h2 className="text-lg font-semibold"> Duration: {time}s</h2>
       </div>
 
-      <button class=" text-white font-semibold w-full bg-slate-800 absolute bottom-0 rounded-b-lg h-9">
+      <button
+        className=" text-white font-semibold w-full bg-slate-800 absolute bottom-0 rounded-b-lg h-9"
+        onClick={() => {
+          getExcerciseOnclick(excercise);
+        }}
+      >
         Save Changes
       </button>
     </div>

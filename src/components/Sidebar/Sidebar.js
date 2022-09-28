@@ -1,6 +1,10 @@
 import React from "react";
 import userImg from "../../images/user.png";
-const Sidebar = () => {
+const Sidebar = ({ allSelectedExcercise }) => {
+  let excerciseTime = allSelectedExcercise.reduce(
+    (prv, crnt) => prv + crnt.time,
+    0
+  );
   return (
     <div>
       <div className="user flex justify-center my-6">
@@ -12,21 +16,21 @@ const Sidebar = () => {
       </div>
 
       <div className="user-bodyInfo  flex justify-around">
-        <div className="weight text-slate-800 font-semibold bg-slate-100 p-2 rounded-lg text-sm">
+        <div className="weight bg-slate-800 text-white font-semibold p-2 rounded-lg text-sm">
           <p>
             65<small>kg</small>
           </p>
           <p>Weight</p>
         </div>
 
-        <div className="height text-slate-800 font-semibold bg-slate-200 p-2 rounded-lg text-sm">
+        <div className="height bg-slate-800 text-white font-semibold  p-2 rounded-lg text-sm">
           <p>
             5.4<small>inch</small>
           </p>
           <p>Height</p>
         </div>
 
-        <div className="age text-slate-800 font-semibold bg-slate-300 p-2 rounded-lg text-sm">
+        <div className="age bg-slate-800 text-white font-semibold p-2 rounded-lg text-sm">
           <p>
             28<small>Years</small>
           </p>
@@ -62,10 +66,10 @@ const Sidebar = () => {
         <h2 className="text-lg font-semibold text-white text-center my-4">
           Excercise Details
         </h2>
-        <h2 className="bg-slate-700 text-white w-4/5 mx-auto py-2 px-2 rounded-lg">
-          Excercise-Time :{" "}
+        <h2 className="bg-slate-700 text-white  py-2 px-2 mx-2 rounded-lg">
+          Excercise-Time : {excerciseTime} seconds.
         </h2>
-        <h2 className="bg-slate-700 text-white w-4/5 mx-auto py-2 px-2 rounded-lg mt-2">
+        <h2 className="bg-slate-700 text-white  mx-2 py-2 px-2 rounded-lg mt-2">
           BreakTime :{" "}
         </h2>
       </div>
