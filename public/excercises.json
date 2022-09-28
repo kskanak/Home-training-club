@@ -1,0 +1,50 @@
+[
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "img": "https://www.dmarge.com/wp-content/uploads/2020/01/push-up-image.jpg",
+    "name": "Push-Up",
+    "details": "In the full push-up, the back and legs are straight and off the floor. There are several variations besides the common push-up. These include bringing the thumbs and index fingers of both hands together (a diamond push-up) as well as having the elbows pointed towards the knees.",
+    "time": 30,
+    "sets": "2/3"
+  },
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362alskdd",
+    "img": "https://www.calisthenics-gear.com/wp-content/uploads/2021/04/Tuck-Planche-Push-Up.jpg",
+    "name": "Plunk Up",
+    "details": "A planche pushup is an advanced strength exercise that requires a tremendous amount of upper body, core, and leg strength. It's similar to a standard pushup but your hands are positioned underneath your hips and your feet are raised. ",
+    "time": 60,
+    "sets": "3/4"
+  },
+  {
+    "id": "124e13b9-2d54-4b2f-b35l-a77b362alskdd",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGNNHlp2gc4IcGGvsvSgdMZDzs-RtY4aSeKg&usqp=CAU",
+    "name": "Tricep-Dips",
+    "details": "A dip is an upper-body strength exercise. Narrow, shoulder-width dips mainly trains the triceps, with major synergists being the anterior deltoid, the pectoralis muscles, and the rhomboid muscles of the back. ",
+    "time": 90,
+    "sets": "2/3"
+  },
+  {
+    "id": "124e13b9-2d54-2l5a-b35l-a77b362alskdd",
+    "img": "https://hortonbarbell.com/wp-content/uploads/2022/08/Inchworms.png",
+    "name": "Inchworm Exercise",
+    "details": "start standing, reach your arms down toward the ground, walk your hands away from your feet, entering a plank-like position, before stepping your feet forward toward your hands and finally returning to a standing position. You then continue the worm-like crawl for time or repetitions.. ",
+    "time": 40,
+    "sets": "3"
+  },
+  {
+    "id": "124e13b9-2d54-454a-b35l-a77b362alskdd",
+    "img": "https://www.mensjournal.com/wp-content/uploads/2018/02/landminelunge.jpg?quality=82&strip=all",
+    "name": "Lunges",
+    "details": "Lunges increase muscle mass to build up strength and tone your body, especially your core, butt, and legs. Improving your appearance isn't the main benefit of shaping up your body, as you'll also improve your posture and range of motion. Lunges target the following muscles: abdominals.",
+    "time": 50,
+    "sets": "3/5"
+  },
+  {
+    "id": "124e13b9-2d54-454a-b35l-a99b362alskdd",
+    "img": "https://www.mensjournal.com/wp-content/uploads/2015/05/landminesquat.jpg?quality=82&strip=all",
+    "name": "Squat",
+    "details": "The movement strengthens your tendons, bones, and ligaments around the leg muscles. It takes some of the weight off your knees and ankles. They help make your knees more stable, too. What's more, squats may also help boost your bone mineral density for stronger bones.",
+    "time": 30,
+    "sets": "2/4"
+  }
+]
