@@ -12,7 +12,9 @@ const Body = () => {
     <div className="body-container flex flex-col-reverse md:grid grid-cols-5">
       {/* excercise container */}
       <div className="excercise-container bg-slate-200 col-span-4">
-        <h2>Select Excercises</h2>
+        <h2 className="text-center text-3xl font-semibold my-6">
+          Select Excercises
+        </h2>
         <div className="allexcercised grid grid-cols-3 gap-8 px-14">
           {excercises.map((excercise) => (
             <Excercise excercise={excercise} key={excercise.id}></Excercise>
