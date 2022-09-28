@@ -25,7 +25,7 @@ const Body = () => {
         <h2 className="text-center text-3xl font-semibold my-6">
           Select Excercises
         </h2>
-        <div className="allexcercised grid grid-cols-3 gap-8 px-14 pb-10">
+        <div className="allexcercised  md:grid grid-cols-3 gap-8 px-14 pb-10">
           {excercises.map((excercise) => (
             <Excercise
               excercise={excercise}

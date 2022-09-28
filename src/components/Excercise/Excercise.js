@@ -4,7 +4,7 @@ const Excercise = ({ excercise, getExcerciseOnclick }) => {
   const { id, img, name, sets, time, details } = excercise;
 
   return (
-    <div className="excercise-cart shadow-2xl shadow-cyan-500/50 border border-gray-300 rounded-lg relative h-96">
+    <div className="excercise-cart shadow-2xl shadow-cyan-500/50 border border-gray-300 rounded-lg relative h-96 mt-4 md:mt-0">
       <img
         className="h-40 w-72 mx-auto px-1 py-2 rounded-lg block"
         src={img}
