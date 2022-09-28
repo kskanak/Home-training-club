@@ -4,6 +4,10 @@ import {
   getFromLocalStorage,
   setToLocalStorage,
 } from "../Utilites/localStorage";
+
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 const Sidebar = ({ allSelectedExcercise }) => {
   const [breakTimes, setBreakTimes] = useState();
   useEffect(() => {
@@ -15,12 +19,15 @@ const Sidebar = ({ allSelectedExcercise }) => {
     (prv, crnt) => prv + crnt.time,
     0
   );
+
   const getBreakTimes = (e) => {
     const seletedBreakTime = e.target.innerText;
     setBreakTimes(seletedBreakTime);
     setToLocalStorage(seletedBreakTime);
   };
 
+  const notify = () =>
+    toast.success("Wow Today's Activity done, Congratulations!");
   return (
     <div>
       <div className="user flex justify-center my-6">
@@ -105,6 +112,15 @@ const Sidebar = ({ allSelectedExcercise }) => {
         <h2 className="bg-slate-700 text-white  mx-2 py-2 px-2 rounded-lg mt-2">
           BreakTime : {breakTimes} seconds.
         </h2>
+      </div>
+      <div className="activityBtn text-center my-6">
+        <button
+          className="bg-green-800  rounded-lg w-4/5 h-8 text-white"
+          onClick={notify}
+        >
+          Activity Done
+        </button>
+        <ToastContainer position="top-center" />
       </div>
     </div>
   );
