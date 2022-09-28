@@ -16,11 +16,9 @@ const Excercise = ({ excercise }) => {
         <h2 className="text-lg font-semibold"> Sets: {sets} rounds</h2>
         <h2 className="text-lg font-semibold"> Duration: {time}s</h2>
       </div>
-      <button
-        className="w-full bg-slate-800 absolute bottom-0 rounded-b-lg h-9"
-        type="button"
-      >
-        <p className="text-white font-semibold ">Add to Cart</p>
+
+      <button class=" text-white font-semibold w-full bg-slate-800 absolute bottom-0 rounded-b-lg h-9">
+        Save Changes
       </button>
     </div>
   );

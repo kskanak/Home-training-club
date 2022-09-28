@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Excercise from "../Excercise/Excercise";
+import Sidebar from "../Sidebar/Sidebar";
 
 const Body = () => {
   const [excercises, setExcercise] = useState([]);
@@ -22,8 +23,8 @@ const Body = () => {
         </div>
       </div>
       {/* sidebar  */}
-      <div className="sidebar bg-orange-600 md:h-screen sticky top-0">
-        <h3>sidebar</h3>
+      <div className="sidebar bg-gray-500 md:h-screen sticky top-0">
+        <Sidebar></Sidebar>
       </div>
     </div>
   );
