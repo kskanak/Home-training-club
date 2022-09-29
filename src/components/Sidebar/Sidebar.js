@@ -33,8 +33,8 @@ const Sidebar = ({ allSelectedExcercise }) => {
       <div className="user flex justify-center my-6">
         <img src={userImg} alt="" className="h-10 rounded-lg " />
         <div className="user-info mx-2 text-white">
-          <h2 className="text-sm">Meliodas</h2>
-          <h2 className="text-xs">Stanford, USA</h2>
+          <h2 className="text-sm">Khaladul Alam</h2>
+          <h2 className="text-xs">Bonossri, Dhaka</h2>
         </div>
       </div>
 

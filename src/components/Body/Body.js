@@ -13,7 +13,8 @@ const Body = () => {
       .then((data) => setExcercise(data));
   }, []);
 
-  const getExcerciseOnclick = (Selectedexcercise) => {
+  const getExcerciseOnclick = (Selectedexcercise, e) => {
+    console.log(e);
     const allSelectedExcercise = [...excerciseSummary, Selectedexcercise];
     setExcerciseSummary(allSelectedExcercise);
   };

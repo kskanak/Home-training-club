@@ -19,8 +19,8 @@ const Excercise = ({ excercise, getExcerciseOnclick }) => {
 
       <button
         className=" text-white font-semibold w-full bg-slate-800 absolute bottom-0 rounded-b-lg h-9"
-        onClick={() => {
-          getExcerciseOnclick(excercise);
+        onClick={(e) => {
+          getExcerciseOnclick(excercise, e);
         }}
       >
         Add to WorkOut
